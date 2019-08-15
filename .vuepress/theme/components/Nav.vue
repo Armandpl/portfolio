@@ -1,9 +1,10 @@
 <template>
   <header>
     <nav
-      class="font-sans bg-white text-center flex justify-between my-4 mx-auto container overflow-hidden"
+      class="font-sans bg-white text-center text-xl flex items-center justify-between overflow-hidden px-4"
+      style="height: 80px"
     >
-      <ul class="text-sm text-grey-dark list-reset flex items-center">
+      <ul class="text-xl text-grey-dark list-reset flex items-center">
         <li v-for="item in $site.themeConfig.nav.slice(0, 2)">
           <a
             :href="item.link"
@@ -14,7 +15,7 @@
 
       <a href="/" class="block text-center no-underline text-black">{{$site.title}}</a>
 
-      <ul class="text-sm text-grey-dark list-reset flex items-center">
+      <ul class="text-xl text-grey-dark list-reset flex items-center">
         <li v-for="item in $site.themeConfig.nav.slice(2, 4)">
           <a
             :href="item.link"

@@ -1,8 +1,8 @@
 <template>
   <header>
     <nav
-      class="font-sans bg-white text-center text-xl flex items-center justify-between overflow-hidden px-4"
-      style="height: 80px"
+      class="font-sans bg-white text-center text-xl flex items-center justify-between overflow-hidden px-4 fixed w-full z-10 top-0"
+      style="height: 80px;"
     >
       <ul class="text-xl text-grey-dark list-reset flex items-center">
         <li v-for="item in $site.themeConfig.nav.slice(0, 2)">
@@ -13,7 +13,7 @@
         </li>
       </ul>
 
-      <a href="/" class="block text-center no-underline text-black">{{$site.title}}</a>
+      <a href="/" class="block text-center font-thin no-underline text-black">{{$site.title}}</a>
 
       <ul class="text-xl text-grey-dark list-reset flex items-center">
         <li v-for="item in $site.themeConfig.nav.slice(2, 4)">

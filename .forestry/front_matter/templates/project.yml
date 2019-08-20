@@ -17,7 +17,16 @@ fields:
   type: tag_list
   default: []
   label: tags
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: excerpt
 pages:
 - projects/test2.md
-- projects/super-projet.md
 - projects/test.md
+- projects/super-projet.md

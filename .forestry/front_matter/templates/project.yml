@@ -18,5 +18,6 @@ fields:
   default: []
   label: tags
 pages:
+- projects/test2.md
 - projects/super-projet.md
 - projects/test.md

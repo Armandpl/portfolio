@@ -17,7 +17,7 @@
         </button>
       </div>
 
-      <Content style="border: 1px solid black;" />
+      <Content class="list-disc" style="border: 1px solid black;" />
     </div>
   </div>
 </template>

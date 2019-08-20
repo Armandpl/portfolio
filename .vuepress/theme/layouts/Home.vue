@@ -2,12 +2,12 @@
   <div>
     <section>
       <div class="flex h-screen-nav">
-        <div class="sm:w-full md:w-1/2 flex flex-col justify-center items-center">
-          <h1 class="font-sans font-bold text-5xl text-primary w-4/5">
+        <div class="w-full lg:w-1/2 flex flex-col justify-center items-center">
+          <h1 class="font-sans font-bold text-4xl lg:text-5xl text-primary w-4/5">
             <Content slot-key="greeting" />
           </h1>
 
-          <p class="font-sans text-gray-800 text-2xl w-4/5 px-4">
+          <p class="font-sans text-gray-800 text-2xl w-4/5 lg:px-4">
             <Content slot-key="mantra" />
           </p>
         </div>
@@ -53,7 +53,7 @@
         >My projects</h1>
 
         <!-- nav-->
-        <ul class="w-1/6" style="border: 1px solid green;">
+        <ul class="w-1/6 invisible lg:visible" style="border: 1px solid green;">
           <li v-for="el in nav" class="font-sans font-medium py-4">
             <button @click="select(el)" :class="el===selected ? 'selected py-2' : 'py-2'">
               <span class="m-2">{{el}}</span>

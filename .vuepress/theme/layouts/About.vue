@@ -1,7 +1,7 @@
 <template>
-    <div class="flex items-center justify-center h-screen-nav">
-        <div class="flex w-4/6 items-center " style="border: 1px solid red;">
-            <div class="w-1/2 p-4">
+    <div class="flex lg:items-center justify-center h-screen-nav">
+        <div class="flex w-full lg:w-4/6 lg:items-center " style="border: 1px solid red;">
+            <div class="w-full lg:w-1/2 p-4">
                 <Content class="mb-4"/>
 
                 <h1>
@@ -25,7 +25,7 @@
                 </h2>-->
             </div>
 
-            <div class="w-1/2" id="right">
+            <div class="w-1/2 hidden lg:flex" id="right">
                 <img src="../assets/armand.png"/>
             </div>
         </div>

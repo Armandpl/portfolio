@@ -26,6 +26,16 @@ fields:
     schema:
       format: markdown
   label: excerpt
+- name: code
+  type: text
+  config:
+    required: false
+  label: code
+- name: download
+  type: text
+  config:
+    required: false
+  label: download
 pages:
 - projects/test2.md
 - projects/test.md

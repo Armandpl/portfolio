@@ -8,12 +8,12 @@ download: http://google.com
 ## Master's Degree in Engineering - ECE Paris
 
 # Languages and Technologies
-+ VueJS  
-+ HTML/CSS/JS  
-+ Flutter  
-+ C++  
-+ C  
-+ Java  
+* VueJS  
+* HTML/CSS/JS  
+* Flutter  
+* C++  
+* C  
+* Java  
 # Work Experience
 
 # Languages

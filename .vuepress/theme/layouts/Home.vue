@@ -7,7 +7,7 @@
             <Content slot-key="greeting" />
           </h1>
 
-          <p class="font-sans text-2xl w-4/5 px-4">
+          <p class="font-sans text-gray-800 text-2xl w-4/5 px-4">
             <Content slot-key="mantra" />
           </p>
         </div>

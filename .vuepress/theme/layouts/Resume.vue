@@ -1,8 +1,8 @@
 <template>
   <div class="flex justify-center">
-    <div class="sm:w-5/6 md:w-4/6 px-4">
+    <div class="w-5/6 lg:w-4/6 px-4">
       <div class="flex justify-between mb-4">
-        <h1>Resume</h1>
+        <h1 class="font-sans font-bold text-5xl text-primary">Resume</h1>
         <button
           class="bg-primary hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
         >

@@ -63,14 +63,14 @@
 
         <!-- projects col-->
         <div class="w-5/6 p-4">
-          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 shadow-lg rounded" v-for="i in 5">
+          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 shadow-lg rounded" v-for="p in projects">
             <div
-              class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-              id="test"
+              class="h-56 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded text-center overflow-hidden"
+              :style="'background-image: url('+p.frontmatter.image+');'"
             ></div>
             <div class="bg-white p-4 flex flex-col justify-between leading-normal">
               <div class="mb-8">
-                <div class="text-gray-900 font-bold text-xl mb-2">Draft - Slower, better news</div>
+                <div class="text-gray-900 font-bold text-xl mb-2">{{p.frontmatter.title}}</div>
                 <p
                   class="text-gray-700 text-base"
                 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
@@ -133,16 +133,20 @@ export default {
     select(selection){
       this.selected = selection;
     }
+  },
+  computed: {
+    projects() {
+      return this.$site.pages
+        .filter(x => x.path.startsWith("/projects/"))
+        .sort(
+          (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+        );
+    }
   }
 };
 </script>
 
 <style>
-#test{
-  background-image: url(../assets/draft.png);
-  background-size: cover;
-}
-
 #right {
   background-image: url("../assets/bg_home.jpg");
   background-size: cover;

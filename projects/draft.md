@@ -1,6 +1,7 @@
 ---
 title: Draft - Slower, better news
 tags: [milk, pumpkin pie, eggs, juice]
+image: "draft.png"
 date: 1999-04-06
 ---
 

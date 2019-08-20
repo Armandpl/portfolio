@@ -37,6 +37,6 @@ fields:
     required: false
   label: download
 pages:
+- projects/test2.md
 - projects/test.md
 - projects/super-projet.md
-- projects/test2.md

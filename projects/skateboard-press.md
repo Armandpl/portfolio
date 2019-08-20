@@ -1,6 +1,6 @@
 ---
 tags: []
-title: Skateboard press
+title: ELEVATE - Skateboard press
 date: 
 image: ''
 excerpt: ''

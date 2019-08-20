@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <div class="w-full lg:w-5/6 lg:w-4/6 px-4">
+    <div class="w-full lg:w-4/6 px-4">
       <div class="flex flex-wrap justify-between mb-4">
         <h1 class="font-sans font-bold text-5xl text-primary">Resume</h1>
         <a

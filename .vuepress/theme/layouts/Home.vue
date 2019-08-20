@@ -12,7 +12,7 @@
           </p>
         </div>
 
-        <div class="md:w-1/2 sm:invisible md:visible" id="right"></div>
+        <div class="lg:w-1/2 sm:hidden lg:flex" id="right"></div>
       </div>
 
       <div class="flex justify-center" style="margin-top: -160px; border: 1px solid purple;">
@@ -44,7 +44,7 @@
 
     <section class="flex justify-center" id="projects">
       <div
-        class="flex flex-wrap items-start w-4/5"
+        class="flex flex-wrap items-start w-4/6"
         style="border: 2px solid red;padding-top: 80px;"
       >
         <h1
@@ -53,30 +53,30 @@
         >My projects</h1>
 
         <!-- nav-->
-        <ul class="w-1/6 invisible lg:visible" style="border: 1px solid green;">
-          <li v-for="el in nav" class="font-sans font-medium py-4">
-            <button @click="select(el)" :class="el===selected ? 'selected py-2' : 'py-2'">
-              <span class="m-2">{{el}}</span>
+        <ul class="w-1/6 hidden lg:block" style="border: 1px solid green;">
+          <li v-for="el in nav" class="font-semibold py-4">
+            <button @click="select(el)" :class="el===selected ? 'selected py-1' : 'py-1'">
+              <span class="m-2 uppercase text-lg">{{el}}</span>
             </button>
           </li>
         </ul>
 
         <!-- projects col-->
-        <div class="w-5/6 p-4">
+        <div class="w-full lg:w-5/6 p-4">
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 shadow-lg rounded" v-for="p in projects">
             <div
-              class="h-56 lg:h-auto lg:w-64 flex-none bg-cover rounded-t lg:rounded text-center overflow-hidden"
+              class="h-56 lg:h-40 lg:w-64 flex-none bg-cover rounded-t lg:rounded text-center overflow-hidden"
               :style="'background-image: url('+p.frontmatter.image+');'"
             ></div>
             <div class="bg-white p-4 flex flex-col justify-between leading-normal">
               <div class="mb-8">
-                <div class="text-gray-900 font-bold text-xl mb-2">{{p.frontmatter.title}}</div>
+                <div class="text-gray-900 font-bold uppercase text-lg mb-2">{{p.frontmatter.title}}</div>
                 <p
                   class="text-gray-700 text-base"
                 >{{p.frontmatter.excerpt}}</p>
               </div>
               <div class="flex items-center">
-                <a :href="p.path" class="font-sans mr-4 inline-flex items-center text-sm">
+                <a :href="p.path" class="mr-4 inline-flex items-center text-sm">
                   READ MORE
                   <svg
                     class="ml-1"
@@ -92,7 +92,7 @@
                   </svg>
                 </a>
 
-                <a :href="p.frontmatter.code" v-if="p.frontmatter.code" target="_blank" class="font-sans mr-4 inline-flex items-center text-sm">
+                <a :href="p.frontmatter.code" v-if="p.frontmatter.code" target="_blank" class="mr-4 inline-flex items-center text-sm">
                   CODE
                   <svg
                     class="ml-2    "
@@ -111,7 +111,7 @@
                   </svg>
                 </a>
 
-                <a :href="p.frontmatter.download" v-if="p.frontmatter.download" target="_blank" class="font-sans mr-4 inline-flex items-center text-sm">DOWNLOAD</a>
+                <a :href="p.frontmatter.download" v-if="p.frontmatter.download" target="_blank" class="mr-4 inline-flex items-center text-sm">DOWNLOAD</a>
               </div>
             </div>
           </div>

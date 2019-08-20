@@ -1,18 +1,28 @@
 <template>
-    <div class="flex lg:items-center justify-center h-screen-nav">
-        <div class="flex w-full lg:w-4/6 lg:items-center" style="border: 1px solid red;">
-            <div class="w-full lg:w-1/2 p-4">
+  <div class="flex lg:items-center justify-center h-screen-nav">
+    <div class="flex w-full lg:w-4/6 lg:items-center" style="border: 1px solid red;">
+      <div class="w-full lg:w-1/2 p-4">
+        <h1>{{$page.frontmatter.title}}</h1>
 
-                <h1>{{$page.frontmatter.title}}</h1>
+        <Content class="mb-4" />
 
-                <Content class="mb-4"/>
+        <a href="/contact.html" class="text-2xl inline-flex">
+          Let's get in touch
+          <svg
+            class="ml-1 self-center"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+          >
+            <path
+              class="heroicon-ui"
+              d="M18.59 13H3a1 1 0 0 1 0-2h15.59l-5.3-5.3a1 1 0 1 1 1.42-1.4l7 7a1 1 0 0 1 0 1.4l-7 7a1 1 0 0 1-1.42-1.4l5.3-5.3z"
+            />
+          </svg>
+        </a>
 
-                <a href="/contact.html" class="text-2xl">
-                    Let's get in touch
-                </a>
-
-
-                <!--<h1>
+        <!--<h1>
                     Let's keep in touch
                 </h1>
 
@@ -26,12 +36,18 @@
                 <h2 class="inline-flex">
                     <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z"/></svg>
                     {{$page.frontmatter.mail}}
-                </h2>-->
-            </div>
+        </h2>-->
+      </div>
 
-            <div class="w-1/2 hidden lg:flex" id="right">
-                <img src="../assets/armand.png"/>
-            </div>
-        </div>
+      <div class="w-1/2 hidden lg:flex">
+        <img src="../assets/armand.png" />
+      </div>
     </div>
+  </div>
 </template>
+
+<style scoped>
+    #right{
+        
+    }
+</style>

@@ -55,7 +55,7 @@
         <!-- nav-->
         <ul class="w-1/6" style="border: 1px solid green;">
           <li v-for="el in nav" class="font-sans font-medium py-4">
-            <span :class="el==='All' ? 'selected py-2' : ''">
+            <span @click="select(el)" :class="el===selected ? 'selected py-2' : ''">
               <span class="m-2">{{el}}</span>
             </span>
           </li>
@@ -65,9 +65,8 @@
         <div class="w-5/6 p-4">
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 shadow-lg rounded" v-for="i in 5">
             <div
-              class="h-48 lg:h-auto lg:w-48 flex-none bg-cover bg-red-500 rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-              style="background-image: url(../assets/bg_home.jpg);"
-              title
+              class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+              id="test"
             ></div>
             <div class="bg-white p-4 flex flex-col justify-between leading-normal">
               <div class="mb-8">
@@ -77,13 +76,14 @@
                 >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
               </div>
               <div class="flex items-center">
-                <a class="font-sans mr-2 inline-flex text-sm">
+                <a class="font-sans mr-4 inline-flex items-center text-sm">
                   READ MORE
                   <svg
+                    class="ml-1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
-                    width="22"
-                    height="22"
+                    width="18"
+                    height="18"
                   >
                     <path
                       class="heroicon-ui"
@@ -92,11 +92,12 @@
                   </svg>
                 </a>
 
-                <a class="font-sans mr-2 inline-flex text-sm">
+                <a class="font-sans mr-4 inline-flex items-center text-sm">
                   CODE
                   <svg
-                    width="22"
-                    height="22"
+                    class="ml-2    "
+                    width="18"
+                    height="18"
                     viewBox="0 0 1024 1024"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +111,7 @@
                   </svg>
                 </a>
 
-                <a class="font-sans mr-2 inline-flex text-sm">DOWNLOAD</a>
+                <a class="font-sans mr-4 inline-flex items-center text-sm">DOWNLOAD</a>
               </div>
             </div>
           </div>
@@ -124,13 +125,24 @@
 export default {
   data() {
     return {
-      nav: ["All", "Most recent", "Web Design", "ML", "Freelance"]
+      nav: ["All", "Most recent", "Web Design", "ML", "Freelance"],
+      selected: 'All'
     };
+  },
+  methods: {
+    select(selection){
+      this.selected = selection;
+    }
   }
 };
 </script>
 
 <style>
+#test{
+  background-image: url(../assets/draft.png);
+  background-size: cover;
+}
+
 #right {
   background-image: url("../assets/bg_home.jpg");
   background-size: cover;

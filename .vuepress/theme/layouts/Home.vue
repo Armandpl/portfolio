@@ -55,9 +55,9 @@
         <!-- nav-->
         <ul class="w-1/6" style="border: 1px solid green;">
           <li v-for="el in nav" class="font-sans font-medium py-4">
-            <span @click="select(el)" :class="el===selected ? 'selected py-2' : ''">
+            <button @click="select(el)" :class="el===selected ? 'selected py-2' : 'py-2'">
               <span class="m-2">{{el}}</span>
-            </span>
+            </button>
           </li>
         </ul>
 
@@ -73,10 +73,10 @@
                 <div class="text-gray-900 font-bold text-xl mb-2">{{p.frontmatter.title}}</div>
                 <p
                   class="text-gray-700 text-base"
-                >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                >{{p.frontmatter.excerpt}}</p>
               </div>
               <div class="flex items-center">
-                <a class="font-sans mr-4 inline-flex items-center text-sm">
+                <a :href="p.path" class="font-sans mr-4 inline-flex items-center text-sm">
                   READ MORE
                   <svg
                     class="ml-1"
@@ -92,7 +92,7 @@
                   </svg>
                 </a>
 
-                <a class="font-sans mr-4 inline-flex items-center text-sm">
+                <a :href="p.frontmatter.code" v-if="p.frontmatter.code" target="_blank" class="font-sans mr-4 inline-flex items-center text-sm">
                   CODE
                   <svg
                     class="ml-2    "
@@ -111,7 +111,7 @@
                   </svg>
                 </a>
 
-                <a class="font-sans mr-4 inline-flex items-center text-sm">DOWNLOAD</a>
+                <a :href="p.frontmatter.download" v-if="p.frontmatter.download" target="_blank" class="font-sans mr-4 inline-flex items-center text-sm">DOWNLOAD</a>
               </div>
             </div>
           </div>

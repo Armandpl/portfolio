@@ -3,7 +3,24 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: projects
+  label: Projects
+  create: documents
+  match: "**/*"
+- type: document
+  path: resume.md
+  label: Resume
+  match: "**/*"
+- type: document
+  path: about.md
+  label: About
+  match: "**/*"
+- type: document
+  path: README.md
+  label: Home
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

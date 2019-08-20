@@ -17,3 +17,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- projects/super-projet.md

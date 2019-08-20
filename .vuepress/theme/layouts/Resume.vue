@@ -1,10 +1,12 @@
 <template>
   <div class="flex justify-center">
-    <div class="w-5/6 lg:w-4/6 px-4">
-      <div class="flex justify-between mb-4">
+    <div class="w-full lg:w-5/6 lg:w-4/6 px-4">
+      <div class="flex flex-wrap justify-between mb-4">
         <h1 class="font-sans font-bold text-5xl text-primary">Resume</h1>
-        <button
-          class="bg-primary hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+        <a
+          href="Armand du Parc Locmaria - Resume.pdf"
+          class="bg-primary hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex self-center items-center h-10"
+          download
         >
           <svg
             class="fill-current w-4 h-4 mr-2"
@@ -14,10 +16,10 @@
             <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
           </svg>
           <span>Download PDF</span>
-        </button>
+        </a>
       </div>
 
-      <Content class="list-disc" style="border: 1px solid black;" />
+      <Content />
     </div>
   </div>
 </template>

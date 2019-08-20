@@ -1,12 +1,16 @@
 <template>
     <div class="flex lg:items-center justify-center h-screen-nav">
-        <div class="flex w-full lg:w-4/6 lg:items-center " style="border: 1px solid red;">
+        <div class="flex w-full lg:w-4/6 lg:items-center" style="border: 1px solid red;">
             <div class="w-full lg:w-1/2 p-4">
+
+                <h1>{{$page.frontmatter.title}}</h1>
+
                 <Content class="mb-4"/>
 
-                <h1>
-                    Let's get in touch -->
-                </h1>
+                <a href="/contact.html" class="text-2xl">
+                    Let's get in touch
+                </a>
+
 
                 <!--<h1>
                     Let's keep in touch

@@ -1,3 +1,5 @@
-# About me
+---
+title: About me
+---
 
 We are a small team of designers and developers that create high-quality digital resources which make your design workflow faster and easier. We are a small team of designers and developers that create high-quality digital resources which make your design workflow faster and easier.We are a small team of designers and developers that create high-quality digital resources which make your design workflow.

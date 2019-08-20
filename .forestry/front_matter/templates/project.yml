@@ -5,9 +5,15 @@ fields:
 - type: text
   name: title
   label: title
-- type: list
-  name: tags
-  label: tags
 - type: datetime
   name: date
   label: date
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+- name: tags
+  type: tag_list
+  default: []
+  label: tags

@@ -9,6 +9,8 @@ sections:
   label: Projects
   create: documents
   match: "**/*"
+  templates:
+  - project
 - type: document
   path: resume.md
   label: Resume

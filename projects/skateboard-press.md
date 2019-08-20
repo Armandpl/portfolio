@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+- handcraft
 title: ELEVATE - Skateboard press
 date: 
 image: ''

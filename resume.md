@@ -1,7 +1,6 @@
 ---
 title: Resume
-download: http://google.com
-
+download: Armand du Parc Locmaria - Resume.pdf
 ---
 # Education
 

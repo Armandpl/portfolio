@@ -15,7 +15,7 @@
         <div class="lg:w-1/2 sm:hidden lg:flex" id="right"></div>
       </div>
 
-      <div class="flex justify-center" style="margin-top: -160px; border: 1px solid purple;">
+      <div class="flex justify-center" style="margin-top: -160px;">
         <a href="#projects">
           <svg
             class="w-20 h-20"
@@ -44,19 +44,18 @@
 
     <section class="flex justify-center" id="projects">
       <div
-        class="flex flex-wrap items-start w-4/6"
-        style="border: 2px solid red;padding-top: 80px;"
+        class="flex flex-wrap items-start w-full lg:w-4/6"
+        style="padding-top: 80px;"
       >
         <h1
           class="font-sans font-bold text-4xl p-4 w-full text-primary"
-          style="border: 1px solid purple;"
         >My projects</h1>
 
         <!-- nav-->
-        <ul class="w-1/6 hidden lg:block" style="border: 1px solid green;">
+        <ul class="w-1/6 hidden lg:block">
           <li v-for="el in nav" class="font-semibold py-4">
             <button @click="select(el)" :class="el===selected ? 'selected py-1' : 'py-1'">
-              <span class="m-2 uppercase text-lg">{{el}}</span>
+              <span class="m-2 uppercase text-sm">{{el}}</span>
             </button>
           </li>
         </ul>
@@ -65,7 +64,7 @@
         <div class="w-full lg:w-5/6 p-4">
           <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 shadow-lg rounded" v-for="p in projects">
             <div
-              class="h-56 lg:h-40 lg:w-64 flex-none bg-cover rounded-t lg:rounded text-center overflow-hidden"
+              class="h-56 lg:h-48 lg:w-64 flex-none bg-cover rounded-t lg:rounded text-center overflow-hidden"
               :style="'background-image: url('+p.frontmatter.image+');'"
             ></div>
             <div class="bg-white p-4 flex flex-col justify-between leading-normal">
@@ -125,8 +124,8 @@
 export default {
   data() {
     return {
-      nav: ["All", "Most recent", "Web Design", "ML", "Freelance"],
-      selected: 'All'
+      nav: ["Most recent", "Web Design", "Machine learning", "Freelance work", "Photography", "Others"],
+      selected: 'Most recent'
     };
   },
   methods: {

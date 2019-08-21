@@ -4,7 +4,7 @@
       <div class="flex flex-wrap justify-between mb-4">
         <h1 class="font-sans font-bold text-5xl text-primary">Resume</h1>
         <a
-          href="Armand du Parc Locmaria - Resume.pdf"
+          :href="$page.frontmatter.download"
           class="bg-primary hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex self-center items-center h-10"
           download
         >

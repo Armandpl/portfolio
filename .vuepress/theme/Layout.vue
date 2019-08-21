@@ -11,10 +11,11 @@ import Home from './layouts/Home.vue';
 import Project from './layouts/Project.vue';
 import Resume from './layouts/Resume.vue';
 import About from './layouts/About.vue';
+import Contact from './layouts/Contact.vue';
 
 export default {
     components: {
-        Home, Project, Nav, Resume, About
+        Home, Project, Nav, Resume, About, Contact
     },
     computed: {
         layout() {
@@ -33,6 +34,10 @@ export default {
             else if(path === "/about.html")
             {
                 return 'About'
+            }
+            else if(path === "/contact.html")
+            {
+                return 'Contact'
             }
             else
             {

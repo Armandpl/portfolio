@@ -1,25 +1,13 @@
 <template>
   <div class="flex lg:items-center justify-center h-screen-nav">
-    <div class="flex w-full lg:w-4/6 lg:items-center" style="border: 1px solid red;">
+    <div class="flex w-full lg:w-4/6 lg:items-center">
       <div class="w-full lg:w-1/2 p-4">
         <h1>{{$page.frontmatter.title}}</h1>
 
         <Content class="mb-4" />
 
-        <a href="/contact.html" class="text-2xl inline-flex">
-          Let's get in touch
-          <svg
-            class="ml-1 self-center"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="20"
-            height="20"
-          >
-            <path
-              class="heroicon-ui"
-              d="M18.59 13H3a1 1 0 0 1 0-2h15.59l-5.3-5.3a1 1 0 1 1 1.42-1.4l7 7a1 1 0 0 1 0 1.4l-7 7a1 1 0 0 1-1.42-1.4l5.3-5.3z"
-            />
-          </svg>
+        <a href="/contact.html" class="text-xl inline-flex">
+          Let's get in touch 😉 🦔 :))))))
         </a>
 
         <!--<h1>
@@ -39,8 +27,8 @@
         </h2>-->
       </div>
 
-      <div class="w-1/2 hidden lg:flex">
-        <img src="../assets/armand.png" />
+      <div class="w-1/2 hidden lg:flex relative" style="padding-bottom: 50%;">
+        <img class="absolute h-full w-full object-cover rounded" src="../assets/armand.png" />
       </div>
     </div>
   </div>

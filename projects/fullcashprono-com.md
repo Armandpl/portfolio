@@ -2,7 +2,7 @@
 tags: []
 title: Fullcashprono.com
 date: 
-image: ''
+image: "/LogoFCP2.png"
 excerpt: ''
 code: ''
 download: ''

@@ -37,8 +37,8 @@ fields:
     required: false
   label: download
 pages:
+- projects/fullcashprono-com.md
 - projects/test2.md
 - projects/san-francisco-ece-makers.md
 - projects/test.md
 - projects/skateboard-press.md
-- projects/fullcashprono-com.md

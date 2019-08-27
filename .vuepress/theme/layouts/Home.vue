@@ -42,13 +42,13 @@
       </div>
     </section>
 
-    <section class="flex justify-center" id="projects">
+    <section class="flex justify-center min-h-screen items-start" id="projects">
       <div
-        class="flex flex-wrap items-start w-full lg:w-4/6"
+        class="flex flex-wrap justify-center items-start w-full lg:w-4/6"
         style="padding-top: 80px;"
       >
         <h1
-          class="font-sans font-bold text-4xl p-4 w-full text-primary"
+          class="font-sans font-bold text-4xl text-center lg:text-left p-4 w-full text-primary"
         >My projects</h1>
 
         <!-- nav-->
@@ -61,8 +61,8 @@
         </ul>
 
         <!-- projects col-->
-        <div class="w-full lg:w-5/6 p-4">
-          <div class="max-w-sm w-full lg:max-w-full lg:flex mb-4 shadow-lg rounded" v-for="p in projects">
+        <div class="lg:w-5/6 p-4">
+          <div class="max-w-lg lg:max-w-full lg:flex mb-4 shadow-lg rounded" v-for="p in projects">
             <div
               class="h-56 lg:h-48 lg:w-64 flex-none bg-cover rounded-t lg:rounded text-center overflow-hidden"
               :style="'background-image: url('+p.frontmatter.image+');'"
@@ -124,12 +124,12 @@
 export default {
   data() {
     return {
-      nav: ["Most recent", "Web Design", "Machine learning", "Freelance work", "Photography", "Others"],
-      selected: 'Most recent'
+      selected: 'All'
     };
   },
   methods: {
     select(selection){
+      console.log(selection);
       this.selected = selection;
     }
   },
@@ -137,9 +137,23 @@ export default {
     projects() {
       return this.$site.pages
         .filter(x => x.path.startsWith("/projects/"))
+        .filter(x => x.frontmatter.tags.includes(this.selected) || this.selected === 'All')
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
+    },
+    nav()
+    {
+      console.log("nav computed");
+      let res = ['All'];
+      this.$site.pages
+      .filter(x => x.path.startsWith("/projects/"))
+      .forEach(function(element) {
+        element.frontmatter.tags.forEach(function(tag){
+          res.indexOf(tag) === -1 ? res.push(tag) : ''
+        })
+      });
+      return res;
     }
   }
 };

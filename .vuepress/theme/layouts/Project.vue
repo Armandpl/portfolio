@@ -1,13 +1,29 @@
 <template>
   <div class="flex flex-wrap justify-center">
-    <div class="w-4/6">
-      <h1 class="font-sans font-bold text-4xl lg:text-5xl text-primary ">{{$page.frontmatter.title}}</h1>
+    <div class="w-5/6 lg:w-4/6">
 
-      <h2>{{$page.frontmatter.date}}</h2>
+      <div class="flex flex-wrap">
 
-      <span class="bg-primary rounded px-2 py-1 mr-2 text-white" v-for="tag in $page.frontmatter.tags">{{tag}}</span>
+        <div class="w-full lg:flex lg:flex-wrap lg:items-baseline">
+          <h1 class="font-sans font-bold text-3xl lg:text-4xl text-primary">{{$page.frontmatter.title}}</h1>
 
-      <div>
+          <h2 class="lg:ml-5 text-xl text-gray-700">{{date}}</h2>
+        </div>
+
+        <div class="w-full flex flex-wrap">
+          <span class="rounded px-2 py-1 mr-2 text-sm text-white" v-for="tag in $page.frontmatter.tags">{{tag}}</span>
+        </div>
+
+        <div class="w-full mt-3">
+
+          <a class="text-xl hover:underline text-link mr-2" :href="$page.frontmatter.code">Github</a>
+
+          <a class="text-xl hover:underline text-link" :href="$page.frontmatter.download">Download</a>
+
+        </div>
+      </div>
+
+      <div class="mt-5">
         <img
           class="float-right ml-4 my-2 h-auto lg:h-64"
           :src="$page.frontmatter.image"
@@ -17,3 +33,21 @@
     </div>
   </div>
 </template>
+
+<script>
+import moment from 'moment';
+export default {
+  computed: {
+    date() {
+      return moment(this.$page.frontmatter.date).format("MMMM YYYY");
+
+    }
+  }
+}
+</script>
+
+<style scoped>
+span {
+  background-color: #2c3e50;
+}
+</style>

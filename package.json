@@ -11,9 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "image-webpack-loader": "^6.0.0",
     "tailwindcss": "^1.0.5"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "vuepress": "^1.0.3"
   }
 }

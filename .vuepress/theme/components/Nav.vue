@@ -5,22 +5,22 @@
       style="height: 80px;"
     >
 
-      <ul class="text-xl text-grey-dark list-reset items-center flex">
+      <ul class="text-xl text-grey-dark items-center flex">
         <li v-for="item in $site.themeConfig.nav.slice(0, 2)">
           <a
             :href="item.link"
-            class="inline-block py-2 px-3 text-grey-darkest hover:text-grey-dark hover:border-b hover:pb-2"
+            class="inline-block py-2 pr-3 text-grey-darkest hover:text-grey-dark"
           >{{item.text}}</a>
         </li>
       </ul>
 
       <a href="/" class="text-center font-thin no-underline text-black hidden lg:block">{{$site.title}}</a>
 
-      <ul class="text-xl text-grey-dark list-reset items-center flex">
+      <ul class="text-xl text-grey-dark items-center flex">
         <li v-for="item in $site.themeConfig.nav.slice(2, 4)">
           <a
             :href="item.link"
-            class="inline-block py-2 px-3 text-grey-darkest hover:text-grey-dark hover:underline"
+            class="inline-block py-2 pl-3 text-grey-darkest hover:text-grey-dark"
           >{{item.text}}</a>
         </li>
       </ul>

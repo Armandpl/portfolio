@@ -9,12 +9,15 @@ download: Armand du Parc Locmaria - Resume.pdf
 # Languages and Technologies
 
 * VueJS
-* HTML/CSS/JS
+* Web basics :  HTML/CSS/JS
+  * test
+    * lol
 * Flutter
 * C++
 * C
 * Java
 
 # Work Experience
+## Front-end developper at [JEECE](https://www.google.com)
 
 # Languages

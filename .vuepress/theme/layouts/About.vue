@@ -7,13 +7,13 @@
         <Content class="mb-4" />
 
         <a href="/contact.html" class="text-xl inline-flex">
-          Let's get in touch 😉 🦔
+          Let's get in touch →
         </a>
 
       </div>
 
       <div class="w-1/2 hidden lg:flex relative" style="padding-bottom: 50%;">
-        <img class="absolute h-full w-full object-cover rounded" src="../assets/armand.png" />
+        <img class="absolute h-full w-full object-cover rounded" src="../assets/armand.jpg" />
       </div>
     </div>
   </div>

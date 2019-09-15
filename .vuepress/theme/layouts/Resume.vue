@@ -19,7 +19,7 @@
         </a>
       </div>
 
-      <Content />
+      <Content/>
     </div>
   </div>
 </template>

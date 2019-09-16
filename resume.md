@@ -1,6 +1,7 @@
 ---
 title: Resume
 download: Armand du Parc Locmaria - Resume.pdf
+
 ---
 # Education
 
@@ -18,6 +19,7 @@ download: Armand du Parc Locmaria - Resume.pdf
 * Java
 
 # Work Experience
+
 ## Front-end developper at [JEECE](https://www.google.com)
 
 # Languages

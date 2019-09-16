@@ -3,7 +3,7 @@ title: Draft - Slower, better news
 tags:
 - Mobile development
 image: "/draft.png"
-date: 2019-05-31 23:00:00 +0000
+date: 2019-05-30
 excerpt: If Hacker News and Medium had a child.
 download: https://draft.landen.co/
 code: ''

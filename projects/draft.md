@@ -2,7 +2,7 @@
 title: Draft - Slower, better news
 tags:
 - Mobile development
-image: "/draft.png"
+image: "/media/draft.png"
 date: 2019-05-30
 excerpt: If Hacker News and Medium had a child.
 download: https://draft.landen.co/

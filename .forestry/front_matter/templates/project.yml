@@ -8,6 +8,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    display_utc: true
 - name: image
   type: file
   config:
@@ -37,9 +39,9 @@ fields:
     required: false
   label: download
 pages:
-- projects/growonline-fr-automated-indoor-growing.md
 - projects/test.md
+- projects/fullcashprono-com.md
 - projects/san-francisco-ece-makers.md
 - projects/test2.md
-- projects/fullcashprono-com.md
+- projects/growonline-fr-automated-indoor-growing.md
 - projects/skateboard-press.md

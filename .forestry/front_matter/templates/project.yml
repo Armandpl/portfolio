@@ -37,6 +37,7 @@ fields:
     required: false
   label: download
 pages:
+- projects/growonline-fr-automated-indoor-growing.md
 - projects/test.md
 - projects/fullcashprono-com.md
 - projects/test2.md

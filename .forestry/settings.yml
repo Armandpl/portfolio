@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ".vuepress/public/admin"
 webhook_url: 
 sections:
+- type: document
+  path: README.md
+  label: Home
 - type: directory
   path: projects
   label: Projects
@@ -18,8 +21,9 @@ sections:
   path: about.md
   label: About
 - type: document
-  path: README.md
-  label: Home
+  path: contact.md
+  label: contact
+  match: "**/*"
 upload_dir: ".vuepress/public/media"
 public_path: "/media"
 front_matter_path: ''

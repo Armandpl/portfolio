@@ -23,7 +23,6 @@ sections:
 - type: document
   path: contact.md
   label: contact
-  match: "**/*"
 upload_dir: ".vuepress/public/media"
 public_path: "/media"
 front_matter_path: ''

@@ -40,9 +40,9 @@ fields:
     required: false
   label: download
 pages:
+- projects/growonline-fr-automated-indoor-growing.md
 - projects/fullcashprono-com.md
 - projects/skateboard-press.md
 - projects/san-francisco-ece-makers.md
 - projects/test.md
 - projects/test2.md
-- projects/growonline-fr-automated-indoor-growing.md

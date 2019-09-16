@@ -1,7 +1,7 @@
 ---
 tags: []
 title: San Francisco - ECE Makers
-date: 
+date: 2019-01-01 00:00:00 +0000
 image: "/20190203_210315.jpg"
 excerpt: ''
 code: ''

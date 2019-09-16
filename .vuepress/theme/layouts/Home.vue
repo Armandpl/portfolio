@@ -117,6 +117,7 @@ export default {
 #right {
   background-image: url("../assets/12-01.svg");
   background-size: cover;
+  background-position: right;
 }
 
 .h-screen-nav {

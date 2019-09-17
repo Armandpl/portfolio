@@ -7,11 +7,11 @@ download: Armand du Parc Locmaria - Resume.pdf
 
 ## Master's Degree in Engineering - ECE Paris
 
-### Expected to graduate in 2022
+### September 2017 - Present
 
 ## INSEEC London
 
-### Sept 2019 - Dec 2019
+### September 2019 - December 2019
 
 #### Computer Vision, Java, Operational Mathematical Research
 
@@ -29,7 +29,7 @@ JEECE is one of the top 30 french junior enterprises. I have worked on several m
 
 ## Freelance Full-Stack developer
 
-### Dec 2018 - Jan 2019
+### December 2018 - January 2019
 
 * I developed a website that allowed my client to sell betting prognostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.
 

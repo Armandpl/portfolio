@@ -61,3 +61,4 @@ JEECE is one of the top 30 french junior enterprises. I have worked on several m
 
 * French, native speaker
 * English, full professional proficiency
+* Italian, basic knowledge

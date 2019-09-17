@@ -9,6 +9,8 @@ download: Armand du Parc Locmaria - Resume.pdf
 
 ### September 2017 - Present
 
+#### Graph Theory, Math Analysis, Linear Algebra, Physics, C/C++
+
 ## INSEEC London
 
 ### September 2019 - December 2019

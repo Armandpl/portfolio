@@ -19,7 +19,7 @@
         </a>
       </div>
 
-      <Content/>
+      <Content class="font-serif" />
     </div>
   </div>
 </template>

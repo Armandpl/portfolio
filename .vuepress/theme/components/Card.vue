@@ -49,7 +49,7 @@
             </svg>
         </a>
 
-        <a :href="project.frontmatter.download" v-if="project.frontmatter.download" target="_blank" class="mr-4 hidden lg:inline-flex items-center text-sm">DOWNLOAD</a>
+        <a :href="project.frontmatter.external_link" v-if="project.frontmatter.external_link" target="_blank" class="mr-4 hidden lg:inline-flex items-center text-sm uppercase">{{project.frontmatter.external_link_name}}</a>
         </div>
     </div>
     </div>

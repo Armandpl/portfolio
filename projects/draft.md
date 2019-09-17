@@ -4,8 +4,8 @@ tags:
 - Mobile development
 image: "/media/draft.png"
 date: 2019-05-30
-excerpt: Draft is an Ios and Android application that aims to address the problem
-  of passive news consumption.
+excerpt: 'Draft is an Ios and Android application that aims to address the problem
+  of passive news consumption. 1000+ download, Top #3 of the day on ProductHunt.'
 download: https://draft.landen.co/
 code: ''
 

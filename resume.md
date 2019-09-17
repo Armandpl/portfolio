@@ -18,7 +18,6 @@ download: Armand du Parc Locmaria - Resume.pdf
 # Work Experience
 
 ## Front-end developer at [JEECE](https://www.google.com)
-
 ### Sept 2018 - Present
 
 Jeece is one of the top 30 junior enterprise in France. I have worked on several missions:
@@ -27,11 +26,9 @@ Jeece is one of the top 30 junior enterprise in France. I have worked on several
 * I added functionalities to an admin panel. The existing code base was built on the LAMP Stack.
 * I developped the front-end for a product submission/edition page using VueJS.
 
-  ## Freelance Full-Stack developer
-
-  ### Dec 2018 - Jan 2019
-
-  I developped a website that allowed my client to sell betting pronostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.
+## Freelance Full-Stack developer
+### Dec 2018 - Jan 2019
+I developped a website that allowed my client to sell betting pronostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.
 
 # Skills
 

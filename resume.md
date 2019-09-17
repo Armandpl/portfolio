@@ -7,7 +7,11 @@ download: Armand du Parc Locmaria - Resume.pdf
 
 ## Master's Degree in Engineering - ECE Paris
 
-# Languages and Technologies
+# Work Experience
+
+## Front-end developper at [JEECE](https://www.google.com)
+
+# Skills
 
 * VueJS
 * Web basics :  HTML/CSS/JS
@@ -18,8 +22,9 @@ download: Armand du Parc Locmaria - Resume.pdf
 * C
 * Java
 
-# Work Experience
-
-## Front-end developper at [JEECE](https://www.google.com)
+# Extracurriculars
 
 # Languages
+
+* French, native speaker
+* English, full professional proficiency

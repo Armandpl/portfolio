@@ -16,11 +16,14 @@ download: Armand du Parc Locmaria - Resume.pdf
 * VueJS
 * Web basics :  HTML/CSS/JS
 * Flutter
-* C++
-* C
+* C/C++
 * Java
+* Python
 
 # Extracurriculars
+
+* Interests : Videography, CAD and 3D Printing, Machine Learning
+* Others : Rock Climbing
 
 # Languages
 

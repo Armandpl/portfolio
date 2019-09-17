@@ -9,7 +9,7 @@ download: Armand du Parc Locmaria - Resume.pdf
 
 # Work Experience
 
-## Front-end developper at [JEECE](https://www.google.com)
+## Front-end developer at [JEECE](https://www.google.com)
 
 # Skills
 

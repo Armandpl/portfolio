@@ -16,9 +16,9 @@
 
         <div class="w-full mt-3">
 
-          <a class="text-xl hover:underline text-link mr-2" :href="$page.frontmatter.code" v-if="$page.frontmatter.code">Github</a>
+          <a class="text-xl hover:underline text-link mr-2" target="_blank" :href="$page.frontmatter.code" v-if="$page.frontmatter.code">Github</a>
 
-          <a class="text-xl hover:underline text-link" :href="$page.frontmatter.download" v-if="$page.frontmatter.download">Download</a>
+          <a class="text-xl hover:underline text-link" target="_blank" :href="$page.frontmatter.external_link" v-if="$page.frontmatter.external_link">{{$page.frontmatter.external_link_name}}</a>
 
         </div>
       </div>

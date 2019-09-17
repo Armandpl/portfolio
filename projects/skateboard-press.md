@@ -7,5 +7,7 @@ image: "/media/18161445_1882674141987052_6251137466955202560_n.jpg"
 excerpt: ''
 code: ''
 download: ''
+external_link_name: ''
+external_link: ''
 
 ---

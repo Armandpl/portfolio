@@ -1,25 +1,25 @@
 ---
 title: Resume
-download: Armand du Parc Locmaria - Resume.pdf
+download: /media/Armand du Parc Locmaria - Resume.pdf
 
 ---
 # Education
 
-## Master's Degree in Engineering - ECE Paris
+## Master's Degree in Engineering - [ECE Paris](https://www.ece.fr/ecole-ingenieur/)
 
 ### September 2017 - Present
 
-#### Graph Theory, Math Analysis, Linear Algebra, Physics, C/C++
-  
+* Graph Theory, Math Analysis, Linear Algebra, Physics, C/C++
+
 ## INSEEC London
 
 ### September 2019 - December 2019
 
-#### Computer Vision, Java, Operational Mathematical Research
+* Computer Vision, Java, Operational Mathematical Research
 
 # Work Experience
 
-## Front-end developer at [JEECE](https://www.google.com)
+## Front-end developer at [JEECE](https://www.jeece.fr/)
 
 ### Sept 2018 - Present
 

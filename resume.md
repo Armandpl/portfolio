@@ -15,8 +15,6 @@ download: Armand du Parc Locmaria - Resume.pdf
 
 * VueJS
 * Web basics :  HTML/CSS/JS
-  * test
-    * lol
 * Flutter
 * C++
 * C

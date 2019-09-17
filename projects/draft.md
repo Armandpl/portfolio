@@ -4,7 +4,8 @@ tags:
 - Mobile development
 image: "/media/draft.png"
 date: 2019-05-30
-excerpt: If Hacker News and Medium had a child.
+excerpt: Draft is an Ios and Android application that aims to address the problem
+  of passive news consumption.
 download: https://draft.landen.co/
 code: ''
 

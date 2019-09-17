@@ -28,7 +28,7 @@ Jeece is one of the top 30 junior enterprise in France. I have worked on several
 
 ## Freelance Full-Stack developer
 ### Dec 2018 - Jan 2019
-I developped a website that allowed my client to sell betting pronostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.  
+* I developped a website that allowed my client to sell betting pronostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.  
 
 # Skills
 

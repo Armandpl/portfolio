@@ -25,15 +25,17 @@ JEECE is one of the top 30 french junior enterprises. I have worked on several m
 
 * I developed the front-end for a chat and sign up application using VueJS.
 * I added functionalities to an admin panel. The existing code base was built on the LAMP Stack.
-* I developped the front-end for a product submission/edition page using VueJS.
+* I developed the front-end for a product submission/edition page using VueJS.
 
 ## Freelance Full-Stack developer
 
 ### Dec 2018 - Jan 2019
 
-* I developped a website that allowed my client to sell betting pronostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.
+* I developed a website that allowed my client to sell betting prognostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.
 
 # Skills
+
+## Programming
 
 * VueJS
 * Web basics :  HTML/CSS/JS
@@ -41,6 +43,14 @@ JEECE is one of the top 30 french junior enterprises. I have worked on several m
 * C/C++
 * Java
 * Python
+
+## Tools
+
+* Git
+* Shell
+* Firebase
+* Fusion 360
+* Figma
 
 # Extracurriculars
 

@@ -13,4 +13,4 @@ read_more_bypass: ''
 ---
 As a gift I crafted a silver ring. I filmed the process and made into a short instagram tutorial.
 
-<iframe src="[https://player.vimeo.com/video/361171015](https://player.vimeo.com/video/361171015 "https://player.vimeo.com/video/361171015")" width="640" height="1140" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/361171015" class="w-full" width="640" height="1140" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

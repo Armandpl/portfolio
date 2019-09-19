@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+- organization
 title: Kasar.ai
 date: 2019-05-15
 image: "/media/kasar.png"

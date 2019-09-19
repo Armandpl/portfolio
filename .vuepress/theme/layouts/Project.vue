@@ -26,7 +26,7 @@
       <div class="mt-5">
         <img
           class="float-right ml-4 my-2 h-auto lg:h-64"
-          :src="$page.frontmatter.image"
+          :src="imgPath"
         />
         <Content />
       </div>
@@ -41,6 +41,9 @@ export default {
     date() {
       return moment(this.$page.frontmatter.date).format("MMMM YYYY");
 
+    },
+    imgPath() {
+      return require('../assets'+this.$page.frontmatter.image);
     }
   }
 }

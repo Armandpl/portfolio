@@ -3,7 +3,7 @@
     <a :href="project.path">
         <div
             class="h-64 lg:h-48 lg:w-64 flex-none bg-cover rounded text-center overflow-hidden"
-            :style="'background-image: url('+project.frontmatter.image+');'"
+            :style="'background-image: url('+imgPath+');'"
         ></div>
     </a>
     <div class="bg-white p-4 flex flex-col justify-between leading-normal">
@@ -57,6 +57,11 @@
 
 <script>
 export default {
-    props: ['project']
+    props: ['project'],
+    computed: {
+        imgPath: function(){
+            return require('../assets'+this.project.frontmatter.image);
+        }
+    }
 }
 </script>

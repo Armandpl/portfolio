@@ -2,7 +2,7 @@
 tags: []
 title: San Francisco - ECE Makers
 date: 2019-01-02
-image: "/media/20190203_210315.jpg"
+image: "/media/sf.jpg"
 excerpt: ''
 code: ''
 external_link_name: ''

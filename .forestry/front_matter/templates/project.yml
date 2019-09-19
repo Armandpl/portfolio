@@ -38,7 +38,17 @@ fields:
   type: text
   config:
     required: false
-  label: download
+  label: external_link
+- name: external_link_name
+  type: text
+  config:
+    required: false
+  label: external_link_name
+- name: read_more_bypass
+  type: text
+  config:
+    required: false
+  label: read_more_bypass
 pages:
 - projects/kasar-ai.md
 - projects/jewelry-making.md

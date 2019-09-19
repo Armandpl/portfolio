@@ -15,7 +15,7 @@
         </div>
         <div class="flex items-center">
         <a :href="project.frontmatter.read_more_bypass ? project.frontmatter.read_more_bypass : project.path" class="mr-4 hidden lg:inline-flex items-center text-sm" 
-        :target="project.frontmatter.read_more_bypass ? '_blank' : ''>
+        :target="project.frontmatter.read_more_bypass ? '_blank' : ''">
             READ MORE
             <svg
             class="ml-1"

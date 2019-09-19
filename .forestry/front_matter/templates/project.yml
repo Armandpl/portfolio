@@ -50,9 +50,9 @@ fields:
     required: false
   label: read_more_bypass
 pages:
+- projects/growonline-fr-automated-indoor-growing.md
 - projects/jewelry-making.md
 - projects/skateboard-press.md
 - projects/kasar-ai.md
-- projects/growonline-fr-automated-indoor-growing.md
 - projects/fullcashprono-com.md
 - projects/san-francisco-ece-makers.md

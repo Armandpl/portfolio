@@ -14,7 +14,7 @@
         >{{project.frontmatter.excerpt}}</p>
         </div>
         <div class="flex items-center">
-        <a :href="project.path" class="mr-4 hidden lg:inline-flex items-center text-sm">
+        <a :href="project.frontmatter.read_more_bypass ? project.frontmatter.read_more_bypass : project.path" class="mr-4 hidden lg:inline-flex items-center text-sm">
             READ MORE
             <svg
             class="ml-1"

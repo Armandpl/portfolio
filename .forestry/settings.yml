@@ -23,7 +23,7 @@ sections:
 - type: document
   path: contact.md
   label: Contact
-upload_dir: ".vuepress/public/media"
+upload_dir: ".vuepress/theme/assets/media"
 public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false

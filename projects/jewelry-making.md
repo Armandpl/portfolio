@@ -11,3 +11,4 @@ external_link_name: ''
 read_more_bypass: ''
 
 ---
+As a gift I crafted a silver ring. I filmed the process and made into a short instagram tutorial.

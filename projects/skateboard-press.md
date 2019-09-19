@@ -1,6 +1,6 @@
 ---
 tags:
-- handcraft
+- craft
 title: Skateboard press
 date: 2017-03-30
 image: "/media/elevate.jpg"
@@ -10,5 +10,6 @@ code: ''
 download: ''
 external_link_name: ''
 external_link: ''
+read_more_bypass: ''
 
 ---

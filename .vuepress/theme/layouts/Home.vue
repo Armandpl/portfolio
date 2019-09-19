@@ -62,7 +62,7 @@
 
         <!-- projects col-->
         <div class="w-full sm:w-1/2 lg:w-5/6 p-4">
-          <Card :project="p" v-for="p in projects"/>
+          <Card :project="p" v-for="p in projects" v-show="p.frontmatter.tags.includes(selected) || selected === 'All'"/>
         </div>
       </div>
     </section>
@@ -91,7 +91,7 @@ export default {
     projects() {
       return this.$site.pages
         .filter(x => x.path.startsWith("/projects/"))
-        .filter(x => x.frontmatter.tags.includes(this.selected) || this.selected === 'All')
+        //.filter(x => x.frontmatter.tags.includes(this.selected) || this.selected === 'All')
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );

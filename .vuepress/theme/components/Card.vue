@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-lg lg:max-w-full lg:flex mb-4 lg:shadow-lg rounded">
-    <a :href="project.path">
+    <a :href="project.frontmatter.read_more_bypass ? project.frontmatter.read_more_bypass : project.path" :target="project.frontmatter.read_more_bypass ? '_blank' : ''">
         <div
             class="h-64 lg:h-48 lg:w-64 flex-none bg-cover rounded text-center overflow-hidden"
             :style="'background-image: url('+imgPath+');'"
@@ -14,7 +14,8 @@
         >{{project.frontmatter.excerpt}}</p>
         </div>
         <div class="flex items-center">
-        <a :href="project.frontmatter.read_more_bypass ? project.frontmatter.read_more_bypass : project.path" class="mr-4 hidden lg:inline-flex items-center text-sm">
+        <a :href="project.frontmatter.read_more_bypass ? project.frontmatter.read_more_bypass : project.path" class="mr-4 hidden lg:inline-flex items-center text-sm" 
+        :target="project.frontmatter.read_more_bypass ? '_blank' : ''>
             READ MORE
             <svg
             class="ml-1"

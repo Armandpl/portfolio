@@ -4,7 +4,7 @@ tags:
 title: Kasar.ai
 date: 2019-05-15
 image: "/media/kasar.png"
-excerpt: Kasair.ai is an organization that aims to promote AI among engineering students.
+excerpt: Kasair.ai is a student organization that will help engineering students learn AI. I will be treasurer.
 code: ''
 download: ''
 external_link_name: ''

@@ -3,8 +3,8 @@ tags: []
 title: San Francisco - ECE Makers
 date: 2019-01-02
 image: "/media/sf.jpg"
-excerpt: ECE Makers was a program proposed by my school. They sent us to San Francisco
-  to discover the mindset of Silicon Valley and organize an art exhibit.
+excerpt: ECE Makers was a program proposed by my school. I was selected went to San
+  Francisco to discover the mindset of Silicon Valley and organize an art exhibit.
 code: ''
 external_link_name: ''
 external_link: ''

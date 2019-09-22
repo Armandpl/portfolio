@@ -1,6 +1,7 @@
 ---
 tags:
 - organization
+- AI & Machine Learning
 title: Kasar.ai
 date: 2019-05-15
 image: "/media/kasar.png"

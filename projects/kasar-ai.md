@@ -1,10 +1,12 @@
 ---
 tags:
 - organization
+- AI & Machine Learning
 title: Kasar.ai
 date: 2019-05-15
 image: "/media/kasar.png"
-excerpt: Kasair.ai is a student organization that will help engineering students learn AI. I will be treasurer.
+excerpt: Kasair.ai is a student organization I am founding with friends. It will help
+  engineering students learn AI.
 code: ''
 download: ''
 external_link_name: ''

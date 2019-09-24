@@ -99,7 +99,7 @@ export default {
     nav()
     {
       console.log("nav computed");
-      let res = ['All'];
+      let res = [];
       this.$site.pages
       .filter(x => x.path.startsWith("/projects/"))
       .forEach(function(element) {
@@ -107,7 +107,7 @@ export default {
           res.indexOf(tag) === -1 ? res.push(tag) : ''
         })
       });
-      return res.sort();
+      return ['All'].concat(res.sort());
     }
   }
 };

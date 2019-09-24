@@ -1,0 +1,3 @@
+[submodule ".vuepress/public/.vuepress/public/squat_counter"]
+	path = .vuepress/public/.vuepress/public/squat_counter
+	url = https://github.com/Armandpl/squat_counter.git

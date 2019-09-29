@@ -3,8 +3,8 @@ tags: []
 title: tinkering with tensorflow.js and posenet
 date: 2019-09-21
 image: "/media/tf.svg"
-excerpt: I wanted to play a little bit with tensorflow.js so I've made little web
-  app that counts how many squats you do.
+excerpt: I wanted to play a little bit with tensorflow.js so I've made a web app that
+  counts how many squats you do.
 code: https://github.com/Armandpl/squat_counter
 download: https://squat.armandpl.com/
 external_link_name: Live Demo

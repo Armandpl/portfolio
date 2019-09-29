@@ -1,6 +1,7 @@
 ---
-tags: []
-title: tinkering with tensorflow.js and posenet
+tags:
+- AI & Machine Learning
+title: Tinkering with Tensorflow.js and PoseNet
 date: 2019-09-21
 image: "/media/tf.svg"
 excerpt: I wanted to play a little bit with tensorflow.js so I've made a web app that

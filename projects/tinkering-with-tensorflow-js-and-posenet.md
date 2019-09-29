@@ -21,4 +21,4 @@ The webapp uses posenet to estimate the pose and then a KNN classifier to classi
 
 The web app then increments the counter when it detects a pose change from squatting to standing up.
 
-Next I'd like to understand the KNN algorithm a bit more, use different camera resolutions, add more poses and do the same in a flutter app using MK Kit.  
+Next I'd like to understand the KNN algorithm a bit more, use different camera resolutions, add more poses and do the same in a flutter app using ML Kit.

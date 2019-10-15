@@ -27,7 +27,6 @@ JEECE is one of the top 30 french junior enterprises. I have worked on several m
 
 * I developed the front-end for a chat and sign up application using VueJS.
 * I added functionalities to an admin panel. The existing code base was built on the LAMP Stack.
-* I developed the front-end for a product submission/edition page using VueJS.
 
 ## Freelance Full-Stack developer
 

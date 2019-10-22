@@ -50,10 +50,10 @@ fields:
     required: false
   label: read_more_bypass
 pages:
+- projects/skateboard-press.md
+- projects/jewelry-making.md
 - projects/tinkering-with-tensorflow-js-and-posenet.md
-- projects/san-francisco-ece-makers.md
 - projects/kasar-ai.md
 - projects/growonline-fr-automated-indoor-growing.md
 - projects/fullcashprono-com.md
-- projects/skateboard-press.md
-- projects/jewelry-making.md
+- projects/san-francisco-ece-makers.md

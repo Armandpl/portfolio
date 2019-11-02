@@ -55,8 +55,8 @@ JEECE is one of the top 30 french junior enterprises. I have worked on two missi
 
 # Extracurriculars
 
-* Interests : Videography, CAD and 3D Printing, Machine Learning
-* Others : Rock Climbing
+* Interests : CAD and 3D Printing, Machine Learning
+* Others : Rock Climbing, Videography
 
 # Languages
 

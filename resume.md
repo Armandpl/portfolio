@@ -9,13 +9,16 @@ download: "/Armand du Parc Locmaria - Resume.pdf"
 
 ### September 2017 - Present
 
-* Graph Theory, Math Analysis, Linear Algebra, Physics, C/C++
+* Algorithm and Data Structure & Graph Theory
+* Maths (Calculus, Linear Algebra)
+* C/C++
+* Database and SQL fundamentals
 
 ## INSEEC London
 
 ### September 2019 - December 2019
 
-* Computer Vision, Java, Operational Mathematical Research
+* Computer Vision, NLP, Java
 
 # Work Experience
 

@@ -50,8 +50,8 @@ fields:
     required: false
   label: read_more_bypass
 pages:
-- projects/kasar-ai.md
 - projects/tinkering-with-tensorflow-js-and-posenet.md
+- projects/kasar-ai.md
 - projects/san-francisco-ece-makers.md
 - projects/growonline-fr-automated-indoor-growing.md
 - projects/fullcashprono-com.md

@@ -8,9 +8,9 @@ excerpt: I wanted to play a little bit with tensorflow.js so I've made a web app
   counts how many squats you do.
 code: https://github.com/Armandpl/squat_counter
 download: https://squat.armandpl.com/
-external_link_name: Live Demo
+external_link_name: ''
 read_more_bypass: ''
-external_link: https://squat.armandpl.com/
+external_link: ''
 
 ---
 I wanted to play with tensorflow.js so I built a web app that counts how many squats you do.

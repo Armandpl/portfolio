@@ -7,4 +7,6 @@
 \-Hi, my name is Armand.
 :::
 
-::: slot mantra I am a computer science student, freelance developper and machine learning enthusiast. :::
+::: slot mantra 
+I am a computer science student, freelance developper and machine learning enthusiast. 
+:::

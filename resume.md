@@ -45,8 +45,8 @@ JEECE is one of the top 30 french junior enterprises. I have worked on two missi
 * Web basics :  HTML/CSS/JS
 * Flutter
 * C/C++
-* Java
 * Python
+* Java
 
 ## Tools
 

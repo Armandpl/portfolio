@@ -6,7 +6,7 @@ image: "/media/draft.png"
 date: 2019-05-30
 excerpt: Draft is an application I developed with 4 of my schoolmates. It aims to
   address the problem of passive news consumption. It was downloaded 1000+ times and
-  we were top 3 of the day on ProductHunt. :)
+  was top 3 of the day on ProductHunt. :)
 external_link_name: Download
 external_link: https://draft.landen.co/
 code: ''

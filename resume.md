@@ -23,6 +23,7 @@ download: "/Armand du Parc Locmaria - Resume.pdf"
 # Work Experience
 
 ## ML Engineer at Sirius Insight
+### Nov 2019 - Feb 2020
 
 ## Front-end developer at [JEECE](https://www.jeece.fr/)
 

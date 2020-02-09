@@ -22,6 +22,8 @@ download: "/Armand du Parc Locmaria - Resume.pdf"
 
 # Work Experience
 
+## ML Engineer at Sirius Insight
+
 ## Front-end developer at [JEECE](https://www.jeece.fr/)
 
 ### Sept 2018 - Present
@@ -37,29 +39,18 @@ JEECE is one of the top 30 french junior enterprises. I have worked on two missi
 
 * I developed a website that allowed my client to sell betting prognostics as a subscription. I used VueJS for the front-end, Firebase for the back-end and Stripe to process the payments.
 
-# Skills
+# Frameworks, tools and languages
 
-## Programming
-
-* VueJS
-* Web basics :  HTML/CSS/JS
-* Flutter
-* C/C++
-* Python
-* Java
-
-## Tools
-
-* Git
-* Shell
-* Firebase
-* Fusion 360
-* Figma
+* ML/CV Frameworks : OpenCV, PyTorch, Darknet
+* Front-end Frameworks : VueJS, Flutter
+* Languages : Python, C/C++, HTML/CSS/JS
+* CAD : Fusion 360
+* Other tools : Git, Google Firebase, Figma
 
 # Extracurriculars
 
-* Interests : CAD and 3D Printing, Machine Learning
-* Others : Rock Climbing, Videography
+* Interests : CAD and 3D Printing
+* Others : Rock Climbing, Running, Videography
 
 # Languages
 

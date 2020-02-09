@@ -4,7 +4,7 @@ tags:
 - Python
 title: Implementing a neural net from scratch
 date: 2019-11-29
-image: "/media/nn.png"
+image: "/media/nn-1.png"
 excerpt: To get a better grasp of deep learning I implemented a neural net from scratch,
   using only numpy.
 code: https://github.com/Armandpl/nn_from_scratch

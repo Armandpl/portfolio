@@ -13,3 +13,4 @@ external_link_name: ''
 read_more_bypass: ''
 
 ---
+*(image courtesy of 3B1B)*

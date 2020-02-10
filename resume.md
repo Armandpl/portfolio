@@ -26,6 +26,8 @@ download: "/Armand du Parc Locmaria - Resume.pdf"
 
 ### Nov 2019 - Feb 2020  
 
+* I built a computer vision pipeline. I set up labeling tools, trained the model and deployed it to production. 
+
 ## Front-end developer at [JEECE](https://www.jeece.fr/)
 
 ### Sept 2018 - Present

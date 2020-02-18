@@ -26,7 +26,7 @@ download: "/Armand du Parc Locmaria - Resume.pdf"
 
 ### Nov 2019 - Feb 2020  
 
-* I built a computer vision pipeline from the ground up. The aim of the project was to detect objects on images from an embedded system. I set up labeling tools, trained the model and prepared it's deployment to production. The main challenge was the small size of objects to detect (<16px). The model achieves 88% average precision (0.88 AP@0.5).
+* I built a computer vision pipeline from the ground up. The aim of the project was to detect objects on images taken by an embedded system. I set up labeling tools, trained the model and prepared it's deployment to production. The main challenge was the small size of objects to detect (<16px). The model achieves 88% average precision (0.88 AP@0.5).
 
 ## Front-end developer at [JEECE](https://www.jeece.fr/)
 

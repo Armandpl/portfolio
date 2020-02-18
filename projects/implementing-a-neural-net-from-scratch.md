@@ -10,7 +10,7 @@ excerpt: To get a better grasp of deep learning I implemented a neural net from 
 code: https://github.com/Armandpl/nn_from_scratch
 external_link: ''
 external_link_name: ''
-read_more_bypass: ''
+read_more_bypass: https://github.com/Armandpl/nn_from_scratch
 
 ---
 *(image courtesy of 3B1B)*

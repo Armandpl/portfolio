@@ -34,7 +34,7 @@ download: "/Armand du Parc Locmaria - Resume.pdf"
 
 JEECE is one of the top 30 french junior enterprises. I have worked on two missions:
 
-* I developed the front-end for a chat and sign up application using VueJS.
+* I developed the front-end for a chat and complex sign up application using VueJS.
 * I added functionalities to an admin panel. The existing code base was built on the LAMP Stack.
 
 ## [Freelance](https://www.malt.fr/profile/armandduparclocmaria) Full-Stack developer

@@ -7,7 +7,7 @@
         <Content class="mb-4" />
 
         <a href="/contact.html" class="text-xl inline-flex">
-          Let's get in touch →
+          Get in touch →
         </a>
 
       </div>

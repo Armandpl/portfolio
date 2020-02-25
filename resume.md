@@ -48,6 +48,7 @@ JEECE is one of the top 30 french junior enterprises. I have worked on two missi
 * ML/CV Frameworks : OpenCV, PyTorch, Darknet
 * Front-end Frameworks : VueJS, Flutter, TailwindCSS
 * Languages : Python, C/C++, HTML/CSS/JS
+* Databases : MySQL, PostgreSQL
 * CAD : Fusion 360
 * Other tools : Git, Google Firebase, Figma
 

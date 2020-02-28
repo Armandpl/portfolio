@@ -4,7 +4,7 @@ tags:
 - AI & Machine Learning
 title: Kasar.ai
 date: 2019-05-15
-image: "/media/81495448_2943562112370283_3687841241707315200_n.png"
+image: "/media/222.png"
 excerpt: Kasar.ai is a student organization I am founding with friends. It will help
   engineering students learn deep learning.
 code: ''
